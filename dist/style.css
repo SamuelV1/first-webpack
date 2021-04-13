@@ -1,0 +1,55 @@
+#content {
+
+  text-align: center;
+}
+
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+
+
+header h1{
+    margin: 0px;  font-size: 50px;
+    display: inline-block;
+    font-family: monospace;
+}
+header{
+    height: 100px;
+  
+   background-color: rgb(73, 67, 67);
+}
+
+main{
+    font-size: 25px;
+}
+main div{
+    margin-bottom: 25px;
+}
+
+/* Menu */
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+#menu ul li { display: inline; margin-left: 5px; }
+#menu ul li a{
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+    font-size: 25px;
+    text-decoration:none
+}
+#menu ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+/* main */
+main{
+    margin-top: 10px;
+}
